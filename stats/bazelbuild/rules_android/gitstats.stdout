@@ -1,0 +1,95 @@
+Loading: 
+Loading: 0 packages loaded
+Analyzing: target @com_github_hoxu_gitstats//:gitstats (0 packages loaded, 0 targets configured)
+INFO: Analyzed target @com_github_hoxu_gitstats//:gitstats (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+INFO: Elapsed time: 0.104s, Critical Path: 0.00s
+INFO: 1 process: 1 internal.
+INFO: Build completed successfully, 1 total action
+INFO: Running command line: /private/var/tmp/_bazel_greg/5a3903bd8af21b75debc3e83e189ff0b/external/com_github_hoxu_gitstats/gitstats clones/bazelbuild/rules_android stats/bazelbuild/rules_android
+INFO: Build completed successfully, 1 total action
+[0.04025] >> gnuplot --version
+Output path: /Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_android
+Git path: clones/bazelbuild/rules_android
+Collecting data...
+[0.02144] >> git shortlog -s HEAD | wc -l
+[0.01543] >> git show-ref --tags
+[0.01539] >> git log "57b631489a8d453f9c54d058a1d4cf0163d5d3dd" --pretty=format:"%at %aN" -n 1
+[0.01522] >> git log "7a876c3d55bc43a696143ef1da069f9dff79e2c0" --pretty=format:"%at %aN" -n 1
+[0.01496] >> git shortlog -s "v0.1.0"
+[0.01519] >> git shortlog -s "v0.1.1" "^v0.1.0"
+[0.01650] >> git rev-list --pretty=format:"%at %ai %aN <%aE>" HEAD | grep -v ^commit
+[0.01624] >> git rev-list --pretty=format:"%at %T" HEAD | grep -v ^commit
+[0.02163] >> git ls-tree -r --name-only "70d61dea097a6ccaa50df399d085cf6974dc6750" | wc -l
+[0.02192] >> git ls-tree -r --name-only "e965803651ee927dd1714aeda1a3d45d5a60984d" | wc -l
+[0.02267] >> git ls-tree -r --name-only "a72970bf4db6bc4c4265fa085b1ad76f39090ba2" | wc -l
+[0.02118] >> git ls-tree -r --name-only "039cdfbdd2c45d4e5ed506d3f9f5106157cbe830" | wc -l
+[0.02358] >> git ls-tree -r --name-only "7523b878ef6650309fd699459521d624131d7678" | wc -l
+[0.02077] >> git ls-tree -r --name-only "ae8a7775f102a421e1740bebebf183f04b266110" | wc -l
+[0.02160] >> git ls-tree -r --name-only "9f6316d1b58e652589fe0456c593c43bb364ff50" | wc -l
+[0.02217] >> git ls-tree -r --name-only "a3f9f8fc0b7fb81dcb2a09ec2676df00550681ca" | wc -l
+[0.02231] >> git ls-tree -r --name-only "7c4e65885ed88234c575d05c1b35e39a78b7e88c" | wc -l
+[0.02130] >> git ls-tree -r --name-only "7eb9b46ef8ad6ad846e4c1071e381199c4a0ee42" | wc -l
+[0.02307] >> git ls-tree -r --name-only "e57f9213216020c63a6afe2dafe645a73d353c53" | wc -l
+[0.02125] >> git ls-tree -r --name-only "73bd901be5c3b39117f10395265fc3f0d9830605" | wc -l
+[0.02282] >> git ls-tree -r --name-only "edb2c7caf450e40e5225f329f015fd893c7e7267" | wc -l
+[0.02064] >> git ls-tree -r --name-only "fed2119ab858cf83ed100c1662224f1f0ede253a" | wc -l
+[0.01617] >> git ls-tree -r --name-only "287e07e63fae43819b3a3594947ddf40c6675fda" | wc -l
+[0.02240] >> git ls-tree -r --name-only "9ad103bdbe8e8fce9122d640398946a8867ce6f7" | wc -l
+[0.02147] >> git ls-tree -r --name-only "aa63b81bccd57ea9980811155fda524fbb9109db" | wc -l
+[0.01613] >> git ls-tree -r --name-only "924d19a7b55e647ceea9c106da4fae8012b5c375" | wc -l
+[0.01873] >> git ls-tree -r -l -z HEAD
+[0.02289] >> git cat-file blob 3ee69c0dac49fe922e646ceb60a2b3e268c43168 | wc -l
+[0.02216] >> git cat-file blob 57e46c32b9810ff5057b5ce167385059fdfc9e48 | wc -l
+[0.02290] >> git cat-file blob a02375a7f8448c20dba3b9017474a47255bdf4ad | wc -l
+[0.02100] >> git cat-file blob 4ee0dec4a91439845ed077328561ed65b0020edc | wc -l
+[0.02222] >> git cat-file blob 6902cfb79292262a14e4216897e8c5a0ca08506f | wc -l
+[0.02178] >> git cat-file blob 99da6f8d21cf277cc3cf3890f9b09b6a7f7f2dfd | wc -l
+[0.02337] >> git cat-file blob 84863d74fcd3603098fad5db5690d42b90fb58d9 | wc -l
+[0.02208] >> git cat-file blob 9b1fe39b8de19a4a6f6f4aba5c63014dd0513fa0 | wc -l
+[0.02265] >> git cat-file blob ba982284206d35b058ad0ac15d62e8f7990ee9df | wc -l
+[0.02181] >> git cat-file blob 3755ff752dc70a11d50b589599f2a23e6862ada6 | wc -l
+[0.02276] >> git cat-file blob a2cf5c0f97be2b6a005dbcbb0c2f9bdf33b97d6f | wc -l
+[0.02185] >> git cat-file blob 973afe4b2cc26649fc4551d59c027ff02502cc55 | wc -l
+[0.02167] >> git cat-file blob 710117b9c99014777a24b411e1e953364cda4783 | wc -l
+[0.02312] >> git cat-file blob e3965ce7d4b2a2c6a3e3f185a5cd451d21fdea11 | wc -l
+[0.02245] >> git cat-file blob 930c53904f76781aaa5fa579cf52849f7c638e41 | wc -l
+[0.02226] >> git cat-file blob e8326e215c4ca6e53004e56dfdf75ab946a83b89 | wc -l
+[0.02249] >> git cat-file blob 4c3ff56955e27a034c1bb1a49e71d2474ba32768 | wc -l
+[0.02137] >> git cat-file blob b89a97db9fa1e55a682c90fdbafb482a0e76817f | wc -l
+[0.02319] >> git cat-file blob 34aa2e3b81a74135ae761a925a9f6f246c0392e4 | wc -l
+[0.02222] >> git cat-file blob afe9019f44510b9c50a9dfe7aab4bf11d17b47d1 | wc -l
+[0.02256] >> git cat-file blob 9c8339a28f253b6b0fc3624e40f6aae51eaa29b1 | wc -l
+[0.02078] >> git cat-file blob 371fbadf709b79f7b3d20f8001c7ed838387ad67 | wc -l
+[0.02350] >> git cat-file blob 426cc2ef873745f44ec8581ab416c2cf9a939f72 | wc -l
+[0.02345] >> git cat-file blob 5251962c4ba55e70057e6ba3511621c19eee7c6f | wc -l
+[0.02304] >> git cat-file blob 8fc0e5123ee80fc831fbc91206668769617ee08f | wc -l
+[0.02204] >> git cat-file blob d645695673349e3947e8e5ae42332d0ac3164cd7 | wc -l
+[0.02206] >> git cat-file blob 539aca981bc9b666efc6f321e87a2709e6e8b6a5 | wc -l
+[0.02360] >> git cat-file blob 778c8492c1876315ed15ba96a416a32fa1c71357 | wc -l
+fatal: not a git repository: '/private/var/tmp/_bazel_greg/5a3903bd8af21b75debc3e83e189ff0b/external/com_github_hoxu_gitstats/.git'
+[0.02147] >> git log --shortstat --first-parent -m --pretty=format:"%at %aN" HEAD
+[0.01874] >> git log --shortstat --date-order --pretty=format:"%at %aN" HEAD
+Refining data...
+Saving cache...
+Generating report...
+[0.01518] >> git --git-dir=/private/var/tmp/_bazel_greg/5a3903bd8af21b75debc3e83e189ff0b/external/com_github_hoxu_gitstats/.git --work-tree=/private/var/tmp/_bazel_greg/5a3903bd8af21b75debc3e83e189ff0b/external/com_github_hoxu_gitstats rev-parse --short HEAD
+[0.01515] >> git --version
+[0.04346] >> gnuplot --version
+Generating graphs...
+[0.06729] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_android/month_of_year.plot"
+[0.06073] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_android/domains.plot"
+[0.05970] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_android/hour_of_day.plot"
+[0.07295] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_android/lines_of_code_by_author.plot"
+[0.06137] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_android/day_of_week.plot"
+[0.06417] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_android/commits_by_year_month.plot"
+[0.06551] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_android/lines_of_code.plot"
+[0.06142] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_android/commits_by_year.plot"
+[0.07130] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_android/commits_by_author.plot"
+[0.06224] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_android/files_by_date.plot"
+Execution time 1.30707 secs, 0.95001 secs (72.68 %) in external commands)
+You may now run:
+
+   sensible-browser '/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_android/index.html'
+

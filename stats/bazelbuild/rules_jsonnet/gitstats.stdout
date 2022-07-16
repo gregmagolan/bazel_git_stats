@@ -1,0 +1,210 @@
+Loading: 
+Loading: 0 packages loaded
+Analyzing: target @com_github_hoxu_gitstats//:gitstats (0 packages loaded, 0 targets configured)
+INFO: Analyzed target @com_github_hoxu_gitstats//:gitstats (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+INFO: Elapsed time: 0.090s, Critical Path: 0.00s
+INFO: 1 process: 1 internal.
+INFO: Build completed successfully, 1 total action
+INFO: Running command line: /private/var/tmp/_bazel_greg/5a3903bd8af21b75debc3e83e189ff0b/external/com_github_hoxu_gitstats/gitstats clones/bazelbuild/rules_jsonnet stats/bazelbuild/rules_jsonnet
+INFO: Build completed successfully, 1 total action
+[0.04016] >> gnuplot --version
+Output path: /Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_jsonnet
+Git path: clones/bazelbuild/rules_jsonnet
+Collecting data...
+[0.02399] >> git shortlog -s HEAD | wc -l
+[0.01549] >> git show-ref --tags
+[0.01541] >> git log "ba80a3508c1357925c1545f6f4d49a5125bb5a46" --pretty=format:"%at %aN" -n 1
+[0.01553] >> git log "0c21803bd201b0284c4e6cf66db95fd6cd5d112d" --pretty=format:"%at %aN" -n 1
+[0.01523] >> git log "00b1091aa82ca67142c7dd2cba03b7eb3cde38ad" --pretty=format:"%at %aN" -n 1
+[0.01524] >> git log "a6adce434899c2ca69b9d405303ed7c98e29bef0" --pretty=format:"%at %aN" -n 1
+[0.01594] >> git log "b9c020864eb35f51db8dc031ada71547a5d8e036" --pretty=format:"%at %aN" -n 1
+[0.01569] >> git log "2a2e641739cc897e89affb2696a566c5a58d6aed" --pretty=format:"%at %aN" -n 1
+[0.01602] >> git log "d51e0a75a38762d0441ff1fdea3b4816ec537546" --pretty=format:"%at %aN" -n 1
+[0.01587] >> git shortlog -s "0.0.1"
+[0.01602] >> git shortlog -s "0.0.2" "^0.0.1"
+[0.01561] >> git shortlog -s "0.0.3" "^0.0.2"
+[0.01629] >> git shortlog -s "0.1.0" "^0.0.3"
+[0.01561] >> git shortlog -s "0.2.0" "^0.1.0"
+[0.01563] >> git shortlog -s "0.3.0" "^0.2.0"
+[0.01559] >> git shortlog -s "0.4.0" "^0.3.0"
+[0.01725] >> git rev-list --pretty=format:"%at %ai %aN <%aE>" HEAD | grep -v ^commit
+[0.01693] >> git rev-list --pretty=format:"%at %T" HEAD | grep -v ^commit
+[0.02296] >> git ls-tree -r --name-only "5b6b91d96c06d99c36efd00db0132c224428eb47" | wc -l
+[0.02207] >> git ls-tree -r --name-only "c18e52b359798f895255d964ca6d22788121ccbe" | wc -l
+[0.02231] >> git ls-tree -r --name-only "7d452d8e056adf99323e220d05ae548eb64415ae" | wc -l
+[0.02129] >> git ls-tree -r --name-only "24941d5acd6766c329d92acca93ee4491975db17" | wc -l
+[0.02127] >> git ls-tree -r --name-only "84475beb72ea57f6a3f04131af4a1710166cb778" | wc -l
+[0.02258] >> git ls-tree -r --name-only "ca86ff45c4009421076c4cda3f2153c029941880" | wc -l
+[0.02233] >> git ls-tree -r --name-only "84475beb72ea57f6a3f04131af4a1710166cb778" | wc -l
+[0.02191] >> git ls-tree -r --name-only "f166c33dff49d1f7e1a0aa36528787b0c27db595" | wc -l
+[0.02252] >> git ls-tree -r --name-only "8851d3a632baae84ee1849b79617b7e2c9da0557" | wc -l
+[0.02163] >> git ls-tree -r --name-only "4f31f9ca9953914db72064e19413a823d42ae84d" | wc -l
+[0.02178] >> git ls-tree -r --name-only "489702197d441c8e79e9f369856a50a808788a74" | wc -l
+[0.02240] >> git ls-tree -r --name-only "54746cb5c73f6c95985860214d5a9c1e763e798f" | wc -l
+[0.02288] >> git ls-tree -r --name-only "b265d1b6e5d80e031682949bb52e884ec0255c79" | wc -l
+[0.02253] >> git ls-tree -r --name-only "dcd24c7c4125a0283da6d367bd7e6c2a8348bbeb" | wc -l
+[0.02265] >> git ls-tree -r --name-only "c99d4b097cd381a960e0e3801f14900e0ae6f165" | wc -l
+[0.02153] >> git ls-tree -r --name-only "25e533d66448097774c493b9d19c7ba32cbbc1c0" | wc -l
+[0.02053] >> git ls-tree -r --name-only "bb872a1d53a4ac4d54bc50ee0e2b94cc6ff73ae9" | wc -l
+[0.02262] >> git ls-tree -r --name-only "424e5b22b5b84acef1a8b425da80dce49c44ace2" | wc -l
+[0.02316] >> git ls-tree -r --name-only "c3bcf281b7b0a463d3a844d0421199bb89d9f07c" | wc -l
+[0.02198] >> git ls-tree -r --name-only "36d6c48e76d5905398c9bdeaaaac0c7f1c21fe39" | wc -l
+[0.02230] >> git ls-tree -r --name-only "8cbe0799f98437a8cec00296a330178df6723975" | wc -l
+[0.02074] >> git ls-tree -r --name-only "156124a7106f7fb0680ab4088b3892884645e343" | wc -l
+[0.02157] >> git ls-tree -r --name-only "937150f39999fc90aaef283fb053dcb9d8aaa10d" | wc -l
+[0.02339] >> git ls-tree -r --name-only "beefa46958915fb138f8c0f96857ce51bee3ce37" | wc -l
+[0.02273] >> git ls-tree -r --name-only "60473065cf6cd13ccac57ad1d6d5b1d1e44b58d4" | wc -l
+[0.02191] >> git ls-tree -r --name-only "d55b7d89604b3dd56294062e0e7bc06d787c6091" | wc -l
+[0.02204] >> git ls-tree -r --name-only "99a09b4518daef4c83c01b98be79d63797a41b48" | wc -l
+[0.02134] >> git ls-tree -r --name-only "7e76a499ab8beef48f9e5c33fe9e2d83590de3dc" | wc -l
+[0.02151] >> git ls-tree -r --name-only "6bb3242c42a0c46e1dd9b1d310daec4614a21cb4" | wc -l
+[0.02127] >> git ls-tree -r --name-only "ff582cb21ed6a187bf0d1337c2dbddedee3e4582" | wc -l
+[0.02341] >> git ls-tree -r --name-only "8f67e28da55fedf9fdfb9dfcbee9fb5bf30b7095" | wc -l
+[0.02242] >> git ls-tree -r --name-only "9b931c7869a711c25ab2bde59921eb73ef05869c" | wc -l
+[0.02157] >> git ls-tree -r --name-only "0b56cb839ef2cb1a3ff32e6e12781bd0c0c50043" | wc -l
+[0.02255] >> git ls-tree -r --name-only "a6cfcb982821322cd55c4ffdef80295c7f8a4aac" | wc -l
+[0.02095] >> git ls-tree -r --name-only "0bf9bbfeec37db76fe23c95849502ea26e864d7b" | wc -l
+[0.02310] >> git ls-tree -r --name-only "d9986acffb72aea0a6ab311b4bc76181bab367cd" | wc -l
+[0.02271] >> git ls-tree -r --name-only "65eb73a49873f850e7d8ebdc9ce67455c6b34a2f" | wc -l
+[0.02201] >> git ls-tree -r --name-only "377f04fefcd76cc964b01b27eeb5884c70c2392a" | wc -l
+[0.02269] >> git ls-tree -r --name-only "2c9bcc68fd2268ebe720002cf24165efbac4e645" | wc -l
+[0.02149] >> git ls-tree -r --name-only "110c4cf15738c0776ad1b48905cfc5f503bf770e" | wc -l
+[0.02091] >> git ls-tree -r --name-only "431f87b55acd2e0e7c7f236a83c651a83e5dc6ff" | wc -l
+[0.02140] >> git ls-tree -r --name-only "54a175637d91f4836061acdee342e7a692736507" | wc -l
+[0.02358] >> git ls-tree -r --name-only "efec8f81a832b3575f31de6c404d7be4cb7afeed" | wc -l
+[0.02251] >> git ls-tree -r --name-only "960d65beed8b7cd74b0e01105fb091a00ceb7c0d" | wc -l
+[0.02203] >> git ls-tree -r --name-only "5ac6b4640802ee66b8ffec6b0c6733c80c3626dc" | wc -l
+[0.02286] >> git ls-tree -r --name-only "b1df876ad95e0d7f07fe80a4f3094d2fe673b1a3" | wc -l
+[0.02115] >> git ls-tree -r --name-only "28cdebbfa242e126c76be3b50b3c9cb454570a6b" | wc -l
+[0.02220] >> git ls-tree -r --name-only "a28e64c5b8b5c9ed40ce259782313c220d04504e" | wc -l
+[0.02277] >> git ls-tree -r --name-only "25e533d66448097774c493b9d19c7ba32cbbc1c0" | wc -l
+[0.02258] >> git ls-tree -r --name-only "2b263d606ac1cf8373e96b841c1d127e1f9e52d1" | wc -l
+[0.02224] >> git ls-tree -r --name-only "0912b16aa69219a7382378e91d0f60912ca4008a" | wc -l
+[0.02198] >> git ls-tree -r --name-only "770e5cfdfbfd974acec33c48d411792d335f5e8e" | wc -l
+[0.02042] >> git ls-tree -r --name-only "9c81800158061fe28a82acc1d21880d248620f2c" | wc -l
+[0.02194] >> git ls-tree -r --name-only "caf1f9b3305c54280d2ea8bab654375110dffc14" | wc -l
+[0.02298] >> git ls-tree -r --name-only "b179ba31ef134876d84d9b930d9d4a4c5789ce50" | wc -l
+[0.02174] >> git ls-tree -r --name-only "f19ad86ee8fec7578bf42c8fa412672192ea7a7d" | wc -l
+[0.02236] >> git ls-tree -r --name-only "5619da8fa72d62035821582fbd515fde0ff0abdd" | wc -l
+[0.02348] >> git ls-tree -r --name-only "122ce4d8368e77f543ea4c0c17c3ddfbf2b63225" | wc -l
+[0.02080] >> git ls-tree -r --name-only "74963ecb18c7f3927dbc968b5b9d34e651fd00fb" | wc -l
+[0.02270] >> git ls-tree -r --name-only "ee11989700b86208990fa8ca4681104071f066eb" | wc -l
+[0.02257] >> git ls-tree -r --name-only "720b60c1c203d0add2c88bd56bdeae16eea16d7c" | wc -l
+[0.02214] >> git ls-tree -r --name-only "2202a28785f39eaf2a38fb156904c66449d51ab1" | wc -l
+[0.02225] >> git ls-tree -r --name-only "f0822373750f95e0b2767e2d992f3f9b87a05159" | wc -l
+[0.02133] >> git ls-tree -r --name-only "a9070b4a8536141d99a14745e8dfecde4e23fb0e" | wc -l
+[0.02146] >> git ls-tree -r --name-only "6ed1dc4d62ee911e1649b3a66d6c03960335ec75" | wc -l
+[0.02227] >> git ls-tree -r --name-only "e4ba0704bbaf74d4ebf5fc2f9563d630023fe5f4" | wc -l
+[0.02289] >> git ls-tree -r --name-only "053217ac148a58e8406d0cbdec39cc465ee05322" | wc -l
+[0.02196] >> git ls-tree -r --name-only "bd041b5589746e008746bc860edb4da64c283bb0" | wc -l
+[0.02231] >> git ls-tree -r --name-only "51abded86ae16f9e096bcd06d14ef0403092c03d" | wc -l
+[0.02157] >> git ls-tree -r --name-only "39afa9e180846e7fe5c77d4f96bc7d5829cccec7" | wc -l
+[0.02063] >> git ls-tree -r --name-only "5aba7dc02659be7a18da216953ef061a2109eced" | wc -l
+[0.02391] >> git ls-tree -r --name-only "03ab42966bc5bfb0726e9179dd58fc290f7e6daf" | wc -l
+[0.02264] >> git ls-tree -r --name-only "614138aa6103d35bcbde4cb1e37134e0a2e00663" | wc -l
+[0.02241] >> git ls-tree -r --name-only "5d5dc6bfb5ffe1d6e0f7e3351696a64160b6af95" | wc -l
+[0.02222] >> git ls-tree -r --name-only "2cf6a00ee76d334c980b3e163ec29654b9d866f8" | wc -l
+[0.02173] >> git ls-tree -r --name-only "dad806aae0f7725510d9453fddbae4d23f4ab679" | wc -l
+[0.02070] >> git ls-tree -r --name-only "aa71229e3a2121644d8235adc224bf113f49db38" | wc -l
+[0.02284] >> git ls-tree -r --name-only "bfe2f9e99e1f994a181f74b64a5cf247540b2d93" | wc -l
+[0.02266] >> git ls-tree -r --name-only "ce208c010c520c11757d93358f59a54cab1c7c16" | wc -l
+[0.02173] >> git ls-tree -r --name-only "8fdfc74c5e18a220d3675788f0cab682d04d5aa9" | wc -l
+[0.02193] >> git ls-tree -r --name-only "2c9ea5aaca4b0d9ff37a5672527ee3fc9b3af86e" | wc -l
+[0.02172] >> git ls-tree -r --name-only "2b2bb0408261ef8fcd338462d0c1bd95bc8cb3a2" | wc -l
+[0.02137] >> git ls-tree -r --name-only "aae27a3af0ecbf2d844064c99ad835e89865c7b2" | wc -l
+[0.02230] >> git ls-tree -r --name-only "f7c12ca47782a5200e848105cbe68f519090e6ef" | wc -l
+[0.01694] >> git ls-tree -r --name-only "32167553d136154fe5b2e80eec7429b36fc2864c" | wc -l
+[0.01938] >> git ls-tree -r -l -z HEAD
+[0.02455] >> git cat-file blob 5a9d50c91e61e2a0a4ea02d6a58d7ea1cfc4d4f9 | wc -l
+[0.02065] >> git cat-file blob 79d482ea997890035116afa81c2a67ab7e508330 | wc -l
+[0.02011] >> git cat-file blob 3bad158bd900d740e593e96727a727224d8e863c | wc -l
+[0.02374] >> git cat-file blob d48f140ae3ca3f8f4fd0b45a1457d41b3b64c8fc | wc -l
+[0.02196] >> git cat-file blob decaa0277dd23bce84045343a571d5af54124072 | wc -l
+[0.02286] >> git cat-file blob 1ba486587a6d191cfb895d8c826c4dc1de1fbd50 | wc -l
+[0.02290] >> git cat-file blob 88a2683da9afd9cf4881bad9ca04aec818b67e71 | wc -l
+[0.02219] >> git cat-file blob 6ec9821f6918972b6d0edde3f72cdbc9692e03eb | wc -l
+[0.02435] >> git cat-file blob ae48fe138038b305b2fcd01f2693cee0f6bfbceb | wc -l
+[0.02604] >> git cat-file blob ad2b74367926bacad463553c5a18514e6b6b23f9 | wc -l
+[0.02123] >> git cat-file blob 428b14a36d632469142a7717938644697020f3e5 | wc -l
+[0.02018] >> git cat-file blob c5c9cf29dafe297cd939e46ebfd4a127bf9cb3dd | wc -l
+[0.02253] >> git cat-file blob f506e12273f290edf3a1690f4737833163352bd3 | wc -l
+[0.02193] >> git cat-file blob 401b59832a58d0db2ce155e17cc35206b4e8cd44 | wc -l
+[0.02175] >> git cat-file blob 219c9d09998ecaff06ee93f71509165e9fadf454 | wc -l
+[0.02288] >> git cat-file blob 521bd119b423d1c714a239f78037d5742e82c46e | wc -l
+[0.02208] >> git cat-file blob a0dfc10a008c4f8f105b4cfbba95fcd09621f283 | wc -l
+[0.02253] >> git cat-file blob d35c9c995283d36f08e9205e1d418b2ef688b4c7 | wc -l
+[0.01898] >> git cat-file blob f45d8f110c3034162a1091dafe4b03d2e56b323e | wc -l
+[0.01865] >> git cat-file blob 3bc70a549ae37c1bff7e665f9dc06ac6f44a32f3 | wc -l
+[0.01929] >> git cat-file blob 56836d350c94b4caa13d3e0d8ef8e3c783febf3f | wc -l
+[0.02268] >> git cat-file blob 7e12d9b7d1d0fcbfcd5e366b7f0612a480b9ac41 | wc -l
+[0.02148] >> git cat-file blob 4ba5aff53fc8c459eb4bef44f8ab6f4fac7eca75 | wc -l
+[0.02098] >> git cat-file blob 53418288dbf541ef6d8030570e628bc7c4ef474d | wc -l
+[0.02452] >> git cat-file blob cba8bbbf74c08a2bbc8560c73a4b71cfe7d95e4a | wc -l
+[0.02131] >> git cat-file blob b246cfb0416139632860b9bfc3fefd780dbbdac5 | wc -l
+[0.02221] >> git cat-file blob 741f1856b3fc1cf0649e7be4410f9fa48b61197f | wc -l
+[0.01880] >> git cat-file blob a093a0ec386761e1b73d4cda7c19109396ada347 | wc -l
+[0.01944] >> git cat-file blob f81bbdd7dfc528d95862f63930523a3c709fa3d3 | wc -l
+[0.01909] >> git cat-file blob d69f7d79c463f26c13f23fea821eb6675dd17bcf | wc -l
+[0.02289] >> git cat-file blob 91628d35c310ee1ce1b9b2794eb0360885e2b1f5 | wc -l
+[0.02141] >> git cat-file blob b0b6e98ccf6afea17780156a3a9a8686baac7d8b | wc -l
+[0.02274] >> git cat-file blob a6ef824c1f832ac2d158b227e5d42e825af3071a | wc -l
+[0.02200] >> git cat-file blob e911037832d25f57abd04af3ef91c8062e9d8166 | wc -l
+[0.02259] >> git cat-file blob f449612756d955441e2fe177577841cfca7dd574 | wc -l
+[0.02124] >> git cat-file blob c4b68fbdb88a8de272202ccb39f3094338639d46 | wc -l
+[0.02000] >> git cat-file blob 1e23579f21017c26f6f357b60f7c608355873f48 | wc -l
+[0.01921] >> git cat-file blob 495275dfacc9f8ad1f98ca209589e8a8ab3a913e | wc -l
+[0.01933] >> git cat-file blob 3954fe3a40ddd9c4b4b934006ab86a7f9f9489fd | wc -l
+[0.02312] >> git cat-file blob 9d3d1aaf8a32d1fdf4775975a66d9eae758da799 | wc -l
+[0.02177] >> git cat-file blob 363617ce386ec7eeab4cb415299a4608ddb10f8d | wc -l
+[0.02115] >> git cat-file blob d645695673349e3947e8e5ae42332d0ac3164cd7 | wc -l
+[0.02379] >> git cat-file blob 7ac8e371e2501b374fe46ab9bda2a9facc9112f5 | wc -l
+[0.02220] >> git cat-file blob f188a99e1a70e2c3dbf210c6bab67b2a0fa7abe1 | wc -l
+[0.02158] >> git cat-file blob 1d6fcda6efe7fb12e4a8898d67e20f5d68653f23 | wc -l
+[0.01891] >> git cat-file blob e35b2755f222e7d5a46a1dc223c0cf495b14d6de | wc -l
+[0.01926] >> git cat-file blob a254ccb4cd1f313d67bb735d05507fd0724a96bb | wc -l
+[0.01936] >> git cat-file blob 25d99cf3ab563aaff6e79a8823fe8a14ac468d65 | wc -l
+[0.02272] >> git cat-file blob 6c27040ff4c88039c68d5ebd0538cc53326f19d4 | wc -l
+[0.02211] >> git cat-file blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 | wc -l
+[0.02195] >> git cat-file blob d82c84c729727d2a34bd937d1239a373d120458a | wc -l
+[0.02224] >> git cat-file blob baa9cc4f5368146b4e08aa7f6d3fb77d36216659 | wc -l
+[0.02276] >> git cat-file blob cc5a397cdec4467edeed4ed72c139b11011c3151 | wc -l
+[0.02137] >> git cat-file blob 1d13ee5c6e923cb47b9aff8648821f55593db6bb | wc -l
+[0.01969] >> git cat-file blob 483a14c344609155dca6bd91134e5ce0e8758b47 | wc -l
+[0.01949] >> git cat-file blob dcd31f1a34b14e367410d0683bdf2fb2c216ea3a | wc -l
+[0.01913] >> git cat-file blob fb3f91f152d89e3404e9786f213689075197281c | wc -l
+[0.02210] >> git cat-file blob abd85d3e01d127fa791005f8f91df47f2f164cf0 | wc -l
+[0.02204] >> git cat-file blob 4c61e3fbb1d8c17e75f68b44933999c92e6b2468 | wc -l
+[0.02200] >> git cat-file blob 2575a25cd97bf9e6432da0f82d96e3f0a4dd8b73 | wc -l
+[0.02363] >> git cat-file blob f72c23789ed896cffd0337fdb0e30b1ea50a0cc4 | wc -l
+[0.02109] >> git cat-file blob 449e89ecea9558a13bb782993876f22e1dfa1bcc | wc -l
+[0.02243] >> git cat-file blob 6e8fa638646bfdca8926f899d7c705a0ca98702d | wc -l
+[0.01896] >> git cat-file blob 37ff0e2899fa0d7b9b957fa71a7b0c721b61cfe2 | wc -l
+[0.02078] >> git cat-file blob e67787c09e16cf0a1b64065c52bd198edca80d96 | wc -l
+[0.01833] >> git cat-file blob c414519454492e307fcd8594c305eadd59548ec0 | wc -l
+fatal: not a git repository: '/private/var/tmp/_bazel_greg/5a3903bd8af21b75debc3e83e189ff0b/external/com_github_hoxu_gitstats/.git'
+[0.03783] >> git log --shortstat --first-parent -m --pretty=format:"%at %aN" HEAD
+[0.03430] >> git log --shortstat --date-order --pretty=format:"%at %aN" HEAD
+Refining data...
+Saving cache...
+Generating report...
+[0.01499] >> git --git-dir=/private/var/tmp/_bazel_greg/5a3903bd8af21b75debc3e83e189ff0b/external/com_github_hoxu_gitstats/.git --work-tree=/private/var/tmp/_bazel_greg/5a3903bd8af21b75debc3e83e189ff0b/external/com_github_hoxu_gitstats rev-parse --short HEAD
+[0.01515] >> git --version
+[0.04174] >> gnuplot --version
+Generating graphs...
+[0.07222] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_jsonnet/month_of_year.plot"
+[0.06507] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_jsonnet/domains.plot"
+[0.05898] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_jsonnet/hour_of_day.plot"
+[0.07843] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_jsonnet/lines_of_code_by_author.plot"
+[0.05807] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_jsonnet/day_of_week.plot"
+[0.06255] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_jsonnet/commits_by_year_month.plot"
+[0.06241] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_jsonnet/lines_of_code.plot"
+[0.06155] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_jsonnet/commits_by_year.plot"
+[0.07768] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_jsonnet/commits_by_author.plot"
+[0.05860] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_jsonnet/files_by_date.plot"
+Execution time 1.82826 secs, 1.15247 secs (63.04 %) in external commands)
+You may now run:
+
+   sensible-browser '/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/rules_jsonnet/index.html'
+

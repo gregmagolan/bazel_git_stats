@@ -1,0 +1,123 @@
+Loading: 
+Loading: 0 packages loaded
+Analyzing: target @com_github_hoxu_gitstats//:gitstats (0 packages loaded, 0 targets configured)
+INFO: Analyzed target @com_github_hoxu_gitstats//:gitstats (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+INFO: Elapsed time: 0.087s, Critical Path: 0.00s
+INFO: 1 process: 1 internal.
+INFO: Build completed successfully, 1 total action
+INFO: Running command line: /private/var/tmp/_bazel_greg/5a3903bd8af21b75debc3e83e189ff0b/external/com_github_hoxu_gitstats/gitstats clones/bazelbuild/java_tools stats/bazelbuild/java_tools
+INFO: Build completed successfully, 1 total action
+[0.03776] >> gnuplot --version
+Output path: /Users/greg/aspect/bazel_git_stats/stats/bazelbuild/java_tools
+Git path: clones/bazelbuild/java_tools
+Collecting data...
+[0.02440] >> git shortlog -s HEAD | wc -l
+[0.01592] >> git show-ref --tags
+[0.01512] >> git log "46bf607d263d8a46b359ae377eea58bd9777d5db" --pretty=format:"%at %aN" -n 1
+[0.01535] >> git log "5710642f654e01a0e3273f78feb16051f371abcc" --pretty=format:"%at %aN" -n 1
+[0.01497] >> git log "5710642f654e01a0e3273f78feb16051f371abcc" --pretty=format:"%at %aN" -n 1
+[0.01484] >> git log "ff11ae1152ee9c8f91d69220b4551ac46e250736" --pretty=format:"%at %aN" -n 1
+[0.01520] >> git log "18a20b00e3d4658ebe2813ab8f8f40a3eecac93c" --pretty=format:"%at %aN" -n 1
+[0.01526] >> git log "18a20b00e3d4658ebe2813ab8f8f40a3eecac93c" --pretty=format:"%at %aN" -n 1
+[0.01582] >> git log "18a20b00e3d4658ebe2813ab8f8f40a3eecac93c" --pretty=format:"%at %aN" -n 1
+[0.01600] >> git log "18a20b00e3d4658ebe2813ab8f8f40a3eecac93c" --pretty=format:"%at %aN" -n 1
+[0.01591] >> git log "18a20b00e3d4658ebe2813ab8f8f40a3eecac93c" --pretty=format:"%at %aN" -n 1
+[0.01551] >> git log "18a20b00e3d4658ebe2813ab8f8f40a3eecac93c" --pretty=format:"%at %aN" -n 1
+[0.01590] >> git log "4587311a517e80e8a73b22b8eefcedbf004de204" --pretty=format:"%at %aN" -n 1
+[0.01550] >> git log "4587311a517e80e8a73b22b8eefcedbf004de204" --pretty=format:"%at %aN" -n 1
+[0.01584] >> git log "4587311a517e80e8a73b22b8eefcedbf004de204" --pretty=format:"%at %aN" -n 1
+[0.01550] >> git log "4587311a517e80e8a73b22b8eefcedbf004de204" --pretty=format:"%at %aN" -n 1
+[0.01565] >> git log "5c7674cca5fac9387cfbb892da725bbc473ceb71" --pretty=format:"%at %aN" -n 1
+[0.01542] >> git log "5c7674cca5fac9387cfbb892da725bbc473ceb71" --pretty=format:"%at %aN" -n 1
+[0.01534] >> git log "46bf607d263d8a46b359ae377eea58bd9777d5db" --pretty=format:"%at %aN" -n 1
+[0.01529] >> git log "46bf607d263d8a46b359ae377eea58bd9777d5db" --pretty=format:"%at %aN" -n 1
+[0.01552] >> git log "46bf607d263d8a46b359ae377eea58bd9777d5db" --pretty=format:"%at %aN" -n 1
+[0.01558] >> git log "46bf607d263d8a46b359ae377eea58bd9777d5db" --pretty=format:"%at %aN" -n 1
+[0.01566] >> git log "46bf607d263d8a46b359ae377eea58bd9777d5db" --pretty=format:"%at %aN" -n 1
+[0.01551] >> git log "ff11ae1152ee9c8f91d69220b4551ac46e250736" --pretty=format:"%at %aN" -n 1
+[0.01488] >> git log "18a20b00e3d4658ebe2813ab8f8f40a3eecac93c" --pretty=format:"%at %aN" -n 1
+[0.01508] >> git log "baec722c514793339ce38267d949908eccf7b4b4" --pretty=format:"%at %aN" -n 1
+[0.01490] >> git log "5c7674cca5fac9387cfbb892da725bbc473ceb71" --pretty=format:"%at %aN" -n 1
+[0.01489] >> git log "5c7674cca5fac9387cfbb892da725bbc473ceb71" --pretty=format:"%at %aN" -n 1
+[0.01496] >> git log "5c7674cca5fac9387cfbb892da725bbc473ceb71" --pretty=format:"%at %aN" -n 1
+[0.01494] >> git log "5c7674cca5fac9387cfbb892da725bbc473ceb71" --pretty=format:"%at %aN" -n 1
+[0.01481] >> git shortlog -s "javac11_v4.0"
+[0.01486] >> git shortlog -s "javac11-v5.0" "^javac11_v4.0"
+[0.01491] >> git shortlog -s "javac11-v5.1" "^javac11-v5.0"
+[0.01476] >> git shortlog -s "javac11-v6.0" "^javac11-v5.0"
+[0.01482] >> git shortlog -s "javac11-v6.1" "^javac11-v5.0"
+[0.01484] >> git shortlog -s "javac11-v7.0" "^javac11-v5.0"
+[0.01505] >> git shortlog -s "javac11_v10.0" "^javac11-v7.0"
+[0.01489] >> git shortlog -s "javac11_v8.0" "^javac11-v7.0"
+[0.01495] >> git shortlog -s "javac11_v9.0" "^javac11-v7.0"
+[0.01510] >> git shortlog -s "javac14_v1.0" "^javac11-v7.0"
+[0.01566] >> git shortlog -s "javac14_v2.0" "^javac11-v7.0"
+[0.01540] >> git shortlog -s "java_v11.0" "^javac11-v7.0"
+[0.01535] >> git shortlog -s "javac11_v10.1" "^java_v11.0"
+[0.01531] >> git shortlog -s "javac11_v10.2" "^java_v11.0"
+[0.01501] >> git shortlog -s "javac11_v10.3" "^java_v11.0"
+[0.01471] >> git shortlog -s "javac11_v10.4" "^java_v11.0"
+[0.01486] >> git shortlog -s "javac11_v10.5" "^java_v11.0"
+[0.01497] >> git shortlog -s "java_v11.1" "^java_v11.0"
+[0.01492] >> git shortlog -s "java_v11.2" "^java_v11.1"
+[0.01521] >> git shortlog -s "java_v11.3" "^java_v11.1"
+[0.01501] >> git shortlog -s "javac11_v10.6" "^java_v11.3"
+[0.01503] >> git shortlog -s "java_v11.4" "^java_v11.3"
+[0.01509] >> git shortlog -s "java_v11.5" "^java_v11.4"
+[0.01491] >> git shortlog -s "java_v11.6" "^java_v11.4"
+[0.01489] >> git shortlog -s "java_v11.7" "^java_v11.4"
+[0.01519] >> git shortlog -s "java_v11.7.1" "^java_v11.4"
+[0.01523] >> git shortlog -s "java_v11.8" "^java_v11.4"
+[0.01818] >> git shortlog -s "javac11_v10.7" "^java_v11.4"
+[0.01610] >> git rev-list --pretty=format:"%at %ai %aN <%aE>" HEAD | grep -v ^commit
+[0.01697] >> git rev-list --pretty=format:"%at %T" HEAD | grep -v ^commit
+[0.02116] >> git ls-tree -r --name-only "ec808f3840db6d94fb7634b4b5c370938c056a20" | wc -l
+[0.02175] >> git ls-tree -r --name-only "63faff3647c2d2cef1a98e92016f8b894ee57e77" | wc -l
+[0.02059] >> git ls-tree -r --name-only "287243678b4c5a1d30cf42a986c01b6632a1c006" | wc -l
+[0.02282] >> git ls-tree -r --name-only "668667f4f69afea381da26475653bb5e21ea8970" | wc -l
+[0.02169] >> git ls-tree -r --name-only "287243678b4c5a1d30cf42a986c01b6632a1c006" | wc -l
+[0.02168] >> git ls-tree -r --name-only "f59670785325f09957c3504c094598e9084de234" | wc -l
+[0.02141] >> git ls-tree -r --name-only "eaf7983207f85d073ac23494f497cbe6281a357a" | wc -l
+[0.02176] >> git ls-tree -r --name-only "1472ac2705de31880a27b9058cf3298de5ca00ae" | wc -l
+[0.02103] >> git ls-tree -r --name-only "d40606590bead562060a7eb3a0d255568e49ad2f" | wc -l
+[0.02226] >> git ls-tree -r --name-only "020d768db219077e7fcdfba1d0bbd835c46dd661" | wc -l
+[0.02129] >> git ls-tree -r --name-only "eaf7983207f85d073ac23494f497cbe6281a357a" | wc -l
+[0.02134] >> git ls-tree -r --name-only "4a772e4d91405ccdb2380c65924e3622c6c66df2" | wc -l
+[0.01637] >> git ls-tree -r --name-only "4b825dc642cb6eb9a060e54bf8d69288fbee4904" | wc -l
+[0.02106] >> git ls-tree -r --name-only "ec808f3840db6d94fb7634b4b5c370938c056a20" | wc -l
+[0.02110] >> git ls-tree -r --name-only "d46354ecd2abae823f8aba4fe16699b4816ed979" | wc -l
+[0.01668] >> git ls-tree -r --name-only "6e621d30bc85702d3210400d089d222c832cb1f2" | wc -l
+[0.01898] >> git ls-tree -r -l -z HEAD
+[0.01986] >> git cat-file blob 8f95963accdcf8d056894b9546251da850c920f8 | wc -l
+[0.02004] >> git cat-file blob 001dcb9a4735dfd339e18bb454d5ccb1693790e0 | wc -l
+[0.02010] >> git cat-file blob d645695673349e3947e8e5ae42332d0ac3164cd7 | wc -l
+[0.01990] >> git cat-file blob 3d618516cc7943376a223cf1028dace46e13c303 | wc -l
+[0.02016] >> git cat-file blob a2cc933c79d6a95cbb2471560494ff6e6d1c06c8 | wc -l
+[0.02025] >> git cat-file blob 80bb89b5ec85e8c6ec24450f7f3c58bc3a005048 | wc -l
+fatal: not a git repository: '/private/var/tmp/_bazel_greg/5a3903bd8af21b75debc3e83e189ff0b/external/com_github_hoxu_gitstats/.git'
+[0.01949] >> git log --shortstat --first-parent -m --pretty=format:"%at %aN" HEAD
+[0.01728] >> git log --shortstat --date-order --pretty=format:"%at %aN" HEAD
+Refining data...
+Saving cache...
+Generating report...
+[0.01495] >> git --git-dir=/private/var/tmp/_bazel_greg/5a3903bd8af21b75debc3e83e189ff0b/external/com_github_hoxu_gitstats/.git --work-tree=/private/var/tmp/_bazel_greg/5a3903bd8af21b75debc3e83e189ff0b/external/com_github_hoxu_gitstats rev-parse --short HEAD
+[0.01455] >> git --version
+[0.03916] >> gnuplot --version
+Generating graphs...
+[0.06414] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/java_tools/month_of_year.plot"
+[0.05828] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/java_tools/domains.plot"
+[0.05922] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/java_tools/hour_of_day.plot"
+[0.06466] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/java_tools/lines_of_code_by_author.plot"
+[0.05825] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/java_tools/day_of_week.plot"
+[0.06287] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/java_tools/commits_by_year_month.plot"
+[0.06103] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/java_tools/lines_of_code.plot"
+[0.05587] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/java_tools/commits_by_year.plot"
+[0.06519] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/java_tools/commits_by_author.plot"
+[0.05803] >> gnuplot "/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/java_tools/files_by_date.plot"
+Execution time 1.96662 secs, 1.69735 secs (86.31 %) in external commands)
+You may now run:
+
+   sensible-browser '/Users/greg/aspect/bazel_git_stats/stats/bazelbuild/java_tools/index.html'
+
